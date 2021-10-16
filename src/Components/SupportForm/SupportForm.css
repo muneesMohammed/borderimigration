@@ -1,0 +1,122 @@
+.supportsection {
+    text-align: center;
+    position: relative;
+    width: 100vw;
+    height: 658px;
+    left: 0px;
+    top: 2557px;
+    background: #F5F5F5;
+}
+
+.supportsection h3 {
+    position: relative;
+    /* width: 199px; */
+    /* height: 59px; */
+    /* left: 427px; */
+    top: 67px;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 47px;
+    /* line-height: 59px; */
+    /* identical to box height */
+    color: #000000;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+.formSupport {
+    margin-top: 100px;
+}
+
+.input-group {
+    /* width: 300px; */
+    margin: 30px auto;
+}
+
+.input-group label {
+    width: 72px;
+    height: 17px;
+    z-index: 2;
+    font-family: SF Pro Display;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 17px;
+    color: #000000;
+}
+
+.input-group textarea {
+    /* position: absolute; */
+    width: 827px;
+    height: 122.49px;
+    /* left: 418px; */
+    /* top: 4209px; */
+    background: #FFFFFF;
+    border: 1px solid #FD5D15;
+    border-radius: 4px;
+    transform: rotate(-0.11deg);
+    margin-right: 70px;
+    margin-top: 4px;
+    outline: rgb(214, 0, 71);
+}
+
+.input-group input,
+.input-group select {
+    /* border: none; */
+    margin-right: 60px;
+    margin-top: 4px;
+    outline: rgb(214, 0, 71);
+    background: #FFFFFF;
+    border: 1px solid #FD5D15;
+    border-radius: 4px;
+    transform: rotate(-0.11deg);
+    width: 380.92px;
+    height: 44.35px;
+}
+
+.name-label {
+    position: relative;
+    left: -372px;
+}
+
+.Platform-label {
+    position: relative;
+    left: -350px;
+}
+
+.email-label {
+    position: relative;
+    left: 4px;
+}
+
+.select-label {
+    position: relative;
+    left: -49px;
+}
+
+.textarea-label {
+    position: relative;
+    left: -360px;
+}
+
+.submit-button {
+    margin-right: 70px;
+    margin-top: 4px;
+    /* position: absolute; */
+    width: 827px;
+    height: 52px;
+    /* left: 418px; */
+    /* top: 4372px; */
+    background: linear-gradient(89.95deg, #FF0000 0%, #FD5D15 63.88%);
+    border-radius: 9px;
+    font-family: SF Pro Display;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    /* line-height: 17px; */
+    /* identical to box height */
+    color: #FFFFFF;
+}

@@ -1,0 +1,82 @@
+
+.head {
+    position: absolute;
+    /* text-align: center; */
+    /* width: 476px; */
+    /* height: 59px; */
+    left: 422px;
+    top: 790px;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight:600;
+    font-size: 32px;
+    line-height: 59px;
+    /* identical to box height */
+    color: #000000;
+}
+
+
+/* leftside box */
+
+.leftbox {
+    position: absolute;
+    width: 389px;
+    height: 364px;
+    /* left: -25px; */
+    top: 924px;
+    background: linear-gradient(90deg, #FF1515 11.81%, #FD5D15 121.2%);
+    border-radius: 26px;
+    border-radius: 0px 26px 26px 0px;
+}
+.left-container img{
+ position: relative;
+width: 240.43px;
+height: 480px;
+/* left: 105px; */
+ top: -60px; 
+}
+
+.container {
+    position: absolute;
+    top: 990px;
+    left: 414px;
+    display: grid;
+    grid-template-columns: 10% 34% 10% 34%;
+    grid-auto-rows:110px;
+    grid-column-gap: 20px;
+}
+
+.container p{
+    /* position: absolute; */
+    font-family: DM Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 20px;
+    color: #000000;
+    text-align: left;
+}
+
+.container h2 {
+    position: relative;
+    width: 74px;
+    height: 74px;
+    color: #FD5D15;
+    top: -30px;
+    background: #F5F5F5;
+    border-radius: 15px;
+    font-family: Montserrat-bold;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 44px;
+    line-height: 74px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+.container h2:hover{
+    background: #FD5D15;
+    color: #FFFFFF;
+}
+.section{
+    text-align: center;
+}
