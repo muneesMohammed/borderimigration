@@ -1,6 +1,82 @@
 .App {
   text-align: center;
 }
+@font-face {
+  font-family: Titillium Web;
+  src: url(Assets/fonts/Titillium_Web/TitilliumWeb-Regular.ttf);
+}
+
+@font-face {
+  font-family: Titillium Web-sb;
+  src: url(Assets/fonts/Titillium_Web/TitilliumWeb-Bold.ttf);
+}
+
+@font-face {
+  font-family: Open Sans;
+  src: url(Assets/fonts/Open_Sans/OpenSans-Regular.ttf);
+}
+
+@font-face {
+  font-family: Open Sans-b;
+  src: url(Assets/fonts/Open_Sans/OpenSans-Bold.ttf);
+}
+
+@font-face {
+  font-family: Poppins;
+  src: url(Assets/fonts/Poppins/Poppins-Regular.ttf);
+}
+
+@font-face {
+  font-family: Poppins-sb;
+  src: url(Assets/fonts/Poppins/Poppins-SemiBold.ttf);
+}
+
+@font-face {
+  font-family: Poppins-b;
+  src: url(Assets/fonts/Poppins/Poppins-Bold.ttf);
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  text-decoration: none;
+  list-style: none;
+  box-sizing: border-box;
+  font-family: 'Titillium Web', sans-serif;
+}
+
+html {
+  scroll-behavior: smooth;
+  /* scroll-snap-type: y mandatory; */
+}
+body{
+  overflow-x: hidden;
+  overflow-y:scroll;
+}
+
+
+
+
+/* Scrollbar Styling */
+::-webkit-scrollbar {
+  width: 4px;
+}
+
+::-webkit-scrollbar:hover {
+  width: 10px;
+}
+
+::-webkit-scrollbar-track {
+  background-color: #ebebeb;
+  -webkit-border-radius: 4px;
+  border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb {
+  -webkit-border-radius: 0px;
+  border-radius: 0px;
+  background: #003D6F;
+} 
 
 
 
